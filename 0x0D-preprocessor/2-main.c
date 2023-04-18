@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/** 
- * main - prints the name of header file
+/**
+ * main - prints the name of the file.
  *
- *return: 0 always
+ * Return: Always 0.
  */
 int main(void)
 {
-	printf("This program was compiled from the file: %s\n", __FILE__);
-    return 0;
+	printf("%s\n", __FILE__);
+	return (0);
 }
