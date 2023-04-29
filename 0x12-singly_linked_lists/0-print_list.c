@@ -8,7 +8,7 @@
 
 size_t print_list(const list_t *h)
 {
-	:wq!size_t d = 0;
+	size_t d = 0;
 
         while (h != NULL)
         {
