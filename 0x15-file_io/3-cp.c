@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * error_read_file - checks if a file can be read
- * @file: file descriptor of the file to be read
- * @filename: name of the file to be read
-*/
-
+ * error_file - checks if files can be opened.
+ * @file_from: file_from.
+ * @file_to: file_to.
+ * @argv: arguments vector.
+ * Return: no return.
+ */
 void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
@@ -22,11 +23,11 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * error_write_file - checks if a file can be written to
- * @file: file descriptor of the file to be written to
- * @filename: name of the file to be written to
-*/
-
+ * main - check the code for Holberton School students.
+ * @argc: number of arguments.
+ * @argv: arguments vector.
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, err_close;
